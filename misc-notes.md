@@ -1,4 +1,8 @@
-#Misc. Notes
+[⬅︎ Back to Contents page](https://github.com/oscar-barlow/coding-notes#coding-notes)
+
+---
+
+# Misc. Notes
 
 ## User Interaction in Ruby
 (to be written)
@@ -11,3 +15,6 @@
 
 ## String Interpolation
 (to be written)
+
+---
+[⬅︎ Back to Contents page](https://github.com/oscar-barlow/coding-notes#coding-notes)

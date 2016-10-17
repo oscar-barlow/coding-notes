@@ -1,3 +1,7 @@
+[⬅︎ Back to Contents page](https://github.com/oscar-barlow/coding-notes#coding-notes)
+
+---
+
 #Ruby Objects
 Everything in Ruby is an object. Except for blocks. And even then, some blocks are objects (Procs and lambdas).
 
@@ -27,3 +31,6 @@ Everything in Ruby is an object. Except for blocks. And even then, some blocks a
 
 ## Blocks
 (to be written)
+
+---
+[⬅︎ Back to Contents page](https://github.com/oscar-barlow/coding-notes#coding-notes)
