@@ -4,6 +4,13 @@
 
 # Misc. Notes
 
+## Controlling Flow
+Ternary conditional expressions are cool. Remember the syntax:
+
+`[boolean to be evaluated] ? [do this if true] : [do this if false]`
+
+Use 'case' instead of endless ifs, elsifs, else. when/then is a nice compact, readable version of endless ifs and elses.
+
 ## User Interaction in Ruby
 (to be written)
 

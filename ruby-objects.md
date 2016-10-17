@@ -18,10 +18,13 @@ Everything in Ruby is an object. Except for blocks. And even then, some blocks a
 (to be written)
 
 ## Arrays
-(to be written)
+The difference between `.collect` and `.select`:
 
-## Controlling Flow
-(to be written)
+* Collect is simpler in that it returns the value of running a block on each element of an array into a new array
+* Select runs the each element of an array through a block and (usually this is how you would write it) and returns the elements of the original array that conform to the criteria you've set out in your block
+
+`.inject` sounds like a really useful method for an array, I wish I knew how it worked!
+`.join()` compresses an array into a string and is super useful.
 
 ## Symbols
 
@@ -41,8 +44,6 @@ Basically, because computers do maths and speak numbers, it's faster to make rub
 ## Hashes
 (to be written)
 
-## Blocks
-(to be written)
 
 ---
 [⬅︎ Back to Contents page](https://github.com/oscar-barlow/coding-notes#coding-notes)
