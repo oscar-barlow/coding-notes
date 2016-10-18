@@ -53,11 +53,13 @@ In contrast, a symbol is represented in your computer by one number, not a list.
 
 Basically, because computers do maths and speak numbers, it's faster to make ruby do less maths
 
-*when you add something to a hash, not only are the key and value stored, also magic hashing maths is applied to at least the key to produce a singled magic-hashed number for it.
+\*when you add something to a hash, not only are the key and value stored, also magic hashing maths is applied to at least the key to produce a singled magic-hashed number for it.
 
 ## Hashes
 (to be written)
 
+## Files
+(to be written)
 
 ---
 [⬅︎ Back to Contents page](https://github.com/oscar-barlow/coding-notes#coding-notes)
