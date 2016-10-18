@@ -6,7 +6,16 @@
 Everything in Ruby is an object. Except for blocks. And even then, some blocks are objects (Procs and lambdas).
 
 ## Strings
-(to be written)
+Ruby knows you want something to be a string when you put `''` or `""` around it. Typically you use a string to display text or export something out of your program.
+
+If you want to make a multiline string, nest it in three double-quotes, e.g.:
+
+```
+"""
+This is a
+multi-line string
+"""
+```  
 
 ## Variables
 (to be written)

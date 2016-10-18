@@ -21,6 +21,9 @@ Use 'case' instead of endless ifs, elsifs, else. when/then is a nice compact, re
 (to be written)
 
 ## String Interpolation
+Use `#{var}` to 'interpolate' the value assigned to a variable into a string.
+If you want to apply the same formatting to multiple values, use `%{var1 var2 var3}`
+
 String interpolation (`#{var}`) doesn't work on strings enclosed in single quotes.
 
 ## Classes
