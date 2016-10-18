@@ -12,7 +12,7 @@ Everything in Ruby is an object. Except for blocks. And even then, some blocks a
 (to be written)
 
 ## Methods
-(to be written)	
+(to be written)
 
 ## Booleans
 (to be written)
@@ -25,6 +25,8 @@ The difference between `.collect` and `.select`:
 
 `.inject` sounds like a really useful method for an array, I wish I knew how it worked!
 `.join()` compresses an array into a string and is super useful.
+
+You can use array methods on any collection, not just arrays. e.g. ranges (`1..10`) or files, which ruby treats as a collection of lines.
 
 ## Symbols
 
