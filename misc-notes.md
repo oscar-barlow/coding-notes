@@ -42,7 +42,7 @@ Multiple arguments may be passed, as long as you 'unpack' them in the script, i.
 
 `first, second, third = ARGV`
 
-Will pass 3 arguments from the command line, in order, to variables `first`, `second`, and `third`.
+Will pass 3 arguments from the command line, in order, to variables `first`, `second`, and `third`. `ARGV` doesn't play nicely with `gets.chomp` so you have to use `$stdin.gets.chomp` instead.
 
 ---
 [⬅︎ Back to Contents page](https://github.com/oscar-barlow/coding-notes#coding-notes)
