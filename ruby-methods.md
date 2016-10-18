@@ -3,6 +3,8 @@
 ---
 # Ruby Methods
 
+## Definition
+
 What ruby calls a method, many other languages call a function. Functions do 3 things:
 
 > 1. They name pieces of code the way variables name strings and numbers.
@@ -13,7 +15,12 @@ What ruby calls a method, many other languages call a function. Functions do 3 t
 
 Running, using or calling a function all means the same thing.
 
-## Methods
+## Arguments/Parameters
+Are the values you give to a method for it to work on. Theoretically you could define a method that takes tons and tons of arguments.
+
+Practically speaking, a method that takes more than 5 arguments is probably going to be a pain to use.
+
+## Can a given method be used on a given object?
 `[variable].respond_to?(:methodname)`
 
 Checks if a given method can be used on a given type of object, assigned to a variable. OMG THAT IS MEGA USEFUL!
