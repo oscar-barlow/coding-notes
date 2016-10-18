@@ -17,6 +17,8 @@ multi-line string
 """
 ```  
 
+An alternative way to make new lines in strings is to use the newline character: `\n`
+
 ## Variables
 (to be written)
 
