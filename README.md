@@ -5,6 +5,6 @@ I often need to quickly remind myself about several ideas, which is why I decide
 
 ## Contents
 
-1. [Ruby Objects](https://github.com/oscar-barlow/coding-notes/blob/master/ruby-methods.md)
-2. [Ruby Methods](https://github.com/oscar-barlow/coding-notes/blob/master/ruby-objects.md)
+1. [Ruby Objects](https://github.com/oscar-barlow/coding-notes/blob/master/ruby-objects.md)
+2. [Ruby Methods](https://github.com/oscar-barlow/coding-notes/blob/master/ruby-methods.md)
 2. [Misc.](https://github.com/oscar-barlow/coding-notes/blob/master/misc-notes.md)
