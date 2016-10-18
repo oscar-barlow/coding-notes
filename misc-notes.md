@@ -35,5 +35,14 @@ Modules are like classes but they can't create instances. They're only used for 
 ## Mixins
 When you use a module to add information to a class.
 
+## ARGV
+Stands for 'argument variable'. If you supply a ruby script with an argument on the command line (or any other way, I guess?) then `ARGV` passes those arguments into the script.
+
+Multiple arguments may be passed, as long as you 'unpack' them in the script, i.e.
+
+`first, second, third = ARGV`
+
+Will pass 3 arguments from the command line, in order, to variables `first`, `second`, and `third`.
+
 ---
 [⬅︎ Back to Contents page](https://github.com/oscar-barlow/coding-notes#coding-notes)
