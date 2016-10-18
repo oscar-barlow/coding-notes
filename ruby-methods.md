@@ -3,13 +3,15 @@
 ---
 # Ruby Methods
 
-Methods/functions do 3 things:
+What ruby calls a method, many other languages call a function. Functions do 3 things:
 
 > 1. They name pieces of code the way variables name strings and numbers.
 > 2. They take arguments the way your scripts take ARGV.
 > 3. Using 1 and 2 they let you make your own "mini-scripts" or "tiny commands."
 
 ([source](https://learnrubythehardway.org/book/ex18.html))
+
+Running, using or calling a function all means the same thing.
 
 ## Methods
 `[variable].respond_to?(:methodname)`
