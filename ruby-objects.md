@@ -18,6 +18,7 @@ multi-line string
 ```  
 
 An alternative way to make new lines in strings is to use the newline character: `\n`
+`\t` is a tab character.
 
 ## Variables
 (to be written)
