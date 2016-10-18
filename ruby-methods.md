@@ -4,7 +4,7 @@
 # Ruby Methods
 
 ## Methods
-`[variablename].respond_to?(:symbol-for-methodname)`
+`[variable].respond_to?(:methodname)`
 
 Checks if a given method can be used on a given type of object, assigned to a variable. OMG THAT IS MEGA USEFUL!
 
