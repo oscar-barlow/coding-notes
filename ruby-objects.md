@@ -56,7 +56,22 @@ Basically, because computers do maths and speak numbers, it's faster to make rub
 \*when you add something to a hash, not only are the key and value stored, also magic hashing maths is applied to at least the key to produce a singled magic-hashed number for it.
 
 ## Hashes
-(to be written)
+A hash is a data structure, used to associated something you want to store (a value) with the tag you want to summon it with (a key).
+
+From LRTHW - this is how they work:
+
+> Let's say you want to find out what the word "Honorificabilitudinitatibus" means. Today you would simply copy-paste that word into a search engine and then find out the answer, and we could say a search engine is like a really huge super complex version of the Oxford English Dictionary (OED). Before search engines what you would do is this:
+
+> 1. Go to your library and get "the dictionary". Let's say it's the OED.
+> 2. You know "honorificabilitudinitatibus" starts with the letter 'H' so you look on the side of the book for the little tab that has 'H' on it.
+> 3. Then you'd skim the pages until you are close to where "hon" started.
+> 4. Then you'd skim a few more pages until you found "honorificabilitudinitatibus" or hit the beginning of the "hp" words and realize this word isn't in the OED.
+> 5. Once you found the entry, you'd read the definition to figure out what it means.
+
+> This process is nearly exactly the way a hash works, and you are basically "mapping" the word "honorificabilitudinitatibus" to its definition. A hash in Ruby is just like a dictionary in the real world like the OED.
+
+[(source)](https://learnrubythehardway.org/book/ex39.html)
+
 
 ## Files
 (to be written)
