@@ -47,7 +47,7 @@ name = player[:name]
 Which can be refactored as `age, name = player[:age], player[:name]`.
 
 ## Shovel Operator
-(to be written)
+Pushes something into an array.
 
 ## String Interpolation
 Use `#{var}` to 'interpolate' the value assigned to a variable into a string.
