@@ -30,6 +30,8 @@ Checks if a given method can be used on a given type of object, assigned to a va
 ## Blocks
 A block is just a piece of code between `do`..`end`. It's not an object on its own, but it can be passed to methods like `.each` and `.select`. [source](https://www.codecademy.com/learn/ruby).
 
+Blocks can be written multiple different ways. I generally do them more verbose if I'm working them out, or if the block is complex and I want to make it clear to a later reader what's going on.
+
 ## Procs
 A proc is just a saved block we can use over and over again.
 
