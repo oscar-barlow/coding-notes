@@ -39,7 +39,11 @@ Strings are among the most common objects in Ruby, so it is  worth learning as m
 For more, see the [Ruby 2.3.1 String class documentation](http://ruby-doc.org/core-2.3.1/String.html).
 
 ## Variables
-(to be written)
+A way of storing some information under a name that you set. The information is an object, of pretty much any kind (Hash, String, Array, File).
+
+The variable is not itself the object. The variable simply points to the object it contains.
+
+Variable names should be lowercase.
 
 ## Methods
 (to be written)
