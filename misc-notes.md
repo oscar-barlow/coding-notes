@@ -19,7 +19,11 @@ When a statement is logically evaluated in Ruby, it returns either `true` or `fa
 By default, everything in Ruby is `true`. Only `nil` and `false` are false.
 
 ## User Interaction in Ruby
-(to be written)
+`gets` takes user input from the command line. By default, it adds a newline at the end. By using `.chomp` at the same time, you remove the last character of the input - in the case of `gets` this means removing the newline.
+
+`gets.chomp` doesn't play nicely with `ARGV` (in which you pass arguments from the command line into the script) and `$stdin.gets.chomp` should be used instead.
+
+I know that's a global variable, but I have no idea what the `stdin` part does.
 
 ## Parallel Assignment
 (to be written)
