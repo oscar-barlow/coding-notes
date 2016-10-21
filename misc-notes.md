@@ -26,7 +26,25 @@ By default, everything in Ruby is `true`. Only `nil` and `false` are false.
 I know that's a global variable, but I have no idea what the `stdin` part does.
 
 ## Parallel Assignment
-(to be written)
+This is where you assign values to multiple variables at once. You saw this in LRTHW with `ARGV`:
+
+```
+$ script.rb var1 var2 var3
+```
+Assigns the three arguments after the script name to, in your script...
+
+ ```
+first, second, third = ARGV
+ ```
+
+You can use this in other contexts than `ARGV` though. The [Ruby Pills](https://github.com/makersacademy/pre_course/blob/master/pills/parallel_assignment.md) give the example:
+
+```
+age = player[:age]
+name = player[:name]
+```
+
+Which can be refactored as `age, name = player[:age], player[:name]`.
 
 ## Shovel Operator
 (to be written)
