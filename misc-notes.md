@@ -5,11 +5,18 @@
 # Misc. Notes
 
 ## Controlling Flow
+Get ruby to logically evaluate a statement. If it evaluates to true, execute a given block of code. If false, execute a different block. You can use `elsif` to set additional conditions, but it's usually a bit clunky.
+
 Ternary conditional expressions are cool. Remember the syntax:
 
 `[boolean to be evaluated] ? [do this if true] : [do this if false]`
 
-Use 'case' instead of endless ifs, elsifs, else. when/then is a nice compact, readable version of endless ifs and elses.
+Use `case` instead of endless ifs, elsifs, else. `when`..`then` is a nice compact, readable version of endless ifs and elses.
+
+## Booleans
+When a statement is logically evaluated in Ruby, it returns either `true` or `false`. These are Booleans.
+
+By default, everything in Ruby is `true`. Only `nil` and `false` are false.
 
 ## User Interaction in Ruby
 (to be written)

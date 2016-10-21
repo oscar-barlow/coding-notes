@@ -5,15 +5,17 @@
 
 ## Definition
 
-What ruby calls a method, many other languages call a function. Functions do 3 things:
+What Ruby calls a method, many other languages call a function. Functions do 3 things:
 
 > 1. They name pieces of code the way variables name strings and numbers.
 > 2. They take arguments the way your scripts take ARGV.
 > 3. Using 1 and 2 they let you make your own "mini-scripts" or "tiny commands."
 
-([source](https://learnrubythehardway.org/book/ex18.html))
+[(source)](https://learnrubythehardway.org/book/ex18.html))
 
-Running, using or calling a function all means the same thing.
+You write methods so that you don't have to keep on writing the same code over and over again.
+
+Running, using or calling a function/method all means the same thing.
 
 ## Arguments/Parameters
 Are the values you give to a method for it to work on. Theoretically you could define a method that takes tons and tons of arguments.
@@ -34,9 +36,8 @@ A proc is just a saved block we can use over and over again.
 ## Lambdas
 A lambda is like a proc, but it cares about the number of arguments gets and returns to its calling method rather than returning straight away.
 
-
 ## Recursion
-(to be written)
+Recursion is where you call a method on itself. It's super clever. For more, see [Chris Pine's EnglishNubmer program](https://pine.fm/LearnToProgram/chap_08.html).
 
 ## Gems
 (to be written)

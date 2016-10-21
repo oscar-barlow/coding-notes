@@ -48,10 +48,10 @@ Variable names should be lowercase.
 ## Methods
 (to be written)
 
-## Booleans
-(to be written)
 
 ## Arrays
+An array is a list. Use it when you want to store some stuff and it matters in what order the stuff comes. Items in an array are numerically indexed - remember that computers start counting at 0.
+
 The difference between `.collect` and `.select`:
 
 * Collect is simpler in that it returns the value of running a block on each element of an array into a new array
