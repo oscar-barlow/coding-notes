@@ -6,7 +6,7 @@
 Everything in Ruby is an object. Except for blocks. And even then, some blocks are objects (Procs and lambdas).
 
 ## Strings
-Ruby knows you want something to be a string when you put `''` or `""` around it. Typically you use a string to display text or export something out of your program.
+Ruby knows you want something to be a string when you put `''` or `""` around it. Note, string interpolation doesn't work on strings enclosed in `''`. Typically you use a string to display text or export something out of your program.
 
 If you want to make a multiline string, nest it in three double-quotes, e.g.:
 
@@ -19,6 +19,24 @@ multi-line string
 
 An alternative way to make new lines in strings is to use the newline character: `\n`
 `\t` is a tab character.
+
+You can put pretty much whatever you want into a string.
+
+Strings are among the most common objects in Ruby, so it is  worth learning as much about them as you possibly can. At minimum, you should probably memorise what the following methods do, and have an idea of when to use them:
+
+* []
+* +
+* capitalize
+* upcase
+* downcase
+* length
+* include?
+* gsub
+* slice
+* split
+* chars
+
+For more, see the [Ruby 2.3.1 String class documentation](http://ruby-doc.org/core-2.3.1/String.html).
 
 ## Variables
 (to be written)
