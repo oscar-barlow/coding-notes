@@ -42,7 +42,9 @@ A lambda is like a proc, but it cares about the number of arguments gets and ret
 Recursion is where you call a method on itself. It's super clever. For more, see [Chris Pine's EnglishNubmer program](https://pine.fm/LearnToProgram/chap_08.html).
 
 ## Gems
-(to be written)
+Gems are libraries, usually written by someone else, for you to re-use. There are gems for pretty much everything. While you can install gems manually, most developers use bundler. Bundler is itself a gem, and it takes the contents of your Gemfile and makes sure the gems you need to run a program are installed on your machine.
+
+Writing a gem is not that much more difficult than writing a Ruby class. How difficult that tho?
 
 ---
 [⬅︎ Back to Contents page](https://github.com/oscar-barlow/coding-notes#coding-notes)
