@@ -58,7 +58,7 @@ Basically, because computers do maths and speak numbers, it's faster to make rub
 ## Hashes
 A hash is a data structure, used to associated something you want to store (a value) with the tag you want to summon it with (a key).
 
-From LRTHW - this is how they work:
+From LRTHW, this is how they work:
 
 > Let's say you want to find out what the word "Honorificabilitudinitatibus" means. Today you would simply copy-paste that word into a search engine and then find out the answer, and we could say a search engine is like a really huge super complex version of the Oxford English Dictionary (OED). Before search engines what you would do is this:
 
