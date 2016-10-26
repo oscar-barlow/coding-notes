@@ -96,7 +96,8 @@ From LRTHW, this is how they work:
 
 
 ## Files
-(to be written)
+When you write stuff to a file, especially with a ruby method, it'll probably put a newline character in there.
+If you're gonna open that file back up you need to use `.chomp` to get rid of the ol' newline character.
 
 ---
 [⬅︎ Back to Contents page](https://github.com/oscar-barlow/coding-notes#coding-notes)
